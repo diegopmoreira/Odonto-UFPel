@@ -1,51 +1,44 @@
 "use strict";
-$(document).ready(function() {
-    /*function loadJSON(file,callback) {        
-        var xobj = new XMLHttpRequest();
-        var area;
-        xobj.overrideMimeType("text/plain");
-        xobj.open('GET', 'json/'+file, true);
-        xobj.onreadystatechange = function() {
-        if (xobj.readyState == 4 && xobj.status == "200") {        
-        // .open will NOT return a value but simply returns undefined in async mode so use a callback
-            callback( xobj.responseText);   
-                         
-        }
-        }
-        xobj.send(null);        
-    }
-    var II;    
+$(document).ready(function () {
 
-    loadJSON('II.json',function(response){
-            console.log(response);
+    function loadJson(file) {
 
-    }); ESSA FUNCAO QUANDO TENTA EXECUTAR COMO AJAX É ASSINCRONO MANTEM APENAS DENTOR DA FUNCAO
-    console.log(II);
+        var response = null;
+        $.ajax({
+            url: 'json/' + file,
+            dataType: 'application/json',
+            async: false,
+            complete: function (data) {
+                response = JSON.parse(data.responseText);
+            }
+        });
+        return response;
+    }   
 
-    $.getJSON( "json/II.json", function( data ) {
-       console.log(data);  MESMO CASO POIS UTILIZA AJAX É ASSINCRONO
-    
-    
-    });
-    var II = require('./json/II.json'); AQUI TENTEI USAR REQUIRE JS MAS FALHEI
-    console.log(II);
-   
-    $.ajax({
-        url: 'json/II.json',
-        dataType: 'application/json',
-        complete: function(data){
-            console.log(data);
-        }
-            
-    });    
-        */ 
+    var area;
+
+    $(".grid-buttons button").click(function () {
+        area = loadJson($(this).attr("data-area") + '.json');
+        console.log((area.area));
+        $(".radio .col").remove();
+        $(".titulo").text(area.area);
+        $.each(area.radiolucida, function (i, acidente) {
+            console.log(area.radiolucida[i].path);
+            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiolucida[i].path + '"></img></div>');
+        });
+        $.each(area.radiopacas, function (i, acidente) {
+            console.log(area.radiopacas[i].path);
+            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiopacas[i].path + '"></img></div>');
+        });
+        $('html, body').animate({
+            scrollTop: $(".content").offset().top
+        }, 1000);
         
-    
-   
-    
-   
+    });
+  
 
-    
+
+
 
 
 
