@@ -57,13 +57,8 @@ $(document).ready(function () {
       $(this).attr('src', original_src);
     });
 
-
-   
-
-
-
-
-
-
+    $('.modal-body .next').on('click', function(){
+alert('AHHHHHHHHHHHHHMMMMMMMMMMMM OOOOOOOOOOOOOOOOOOOOOOOHHHHHHHHHHHHHHHHHMMMMMMMMMMMMMMMMM');
+    });
 
 });
