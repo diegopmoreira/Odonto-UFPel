@@ -37,15 +37,15 @@ $(document).ready(function () {
 
     });
 
-    $('.content .img-fluid').on('click', function(){
+    $('.content').on('click','.img-fluid', function(){
       var src = $(this).attr('src');
-      console.log(src);
-      $('.modal-body .acidente img').attr('src', '2');
+      //console.log(src);     
       $('.modal-body .acidente img').attr('src', src);
     });
 
     $('.modal-body .acidente img').on('mouseover', function(){
       original_src = $(this).attr('src');
+      console.log(original_src);
       var split = $(this).attr('src').split(".");
       var dest = split[0]+'_h.'+split[1];
       $(this).attr('src', dest);
@@ -57,6 +57,8 @@ $(document).ready(function () {
       $(this).attr('src', original_src);
     });
 
+
+   
 
 
 
