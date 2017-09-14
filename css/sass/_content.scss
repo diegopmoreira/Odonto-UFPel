@@ -3,6 +3,25 @@
   background-color: $body-color;
   color: $header-color;
 
+  .col-1 {
+    button {
+      font-size: 3em;
+      border: 2px solid $header-color;
+      color: $header-color;
+      background-color: $body-color;
+      border-radius: 5px;
+      transition: all 0.2s ease-in-out;
+      &:hover{
+        color: $block-color;
+        background-color: $header-color;
+      }
+    }
+  }
+
+  img {
+    border-radius: 20%;
+  }
+
   .titulo {
     text-align: center;
   }
