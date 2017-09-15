@@ -19,18 +19,18 @@
     <h1 class="display-3">Anatomia em radiografias Periapicais</h1>
     <div class="grid-buttons">
       <div class="row justify-content-center">
-        <button type="button" data-area="IS" class="btn-default btn-lg btn-outline-primary col-lg-2">Incisivos<br>superiores</button>
-        <button type="button" data-area="CS" class="btn-default btn-lg btn-outline-primary col-lg-2">Caninos<br>superiores</button>
-        <button type="button" data-area="PS" class="btn-default btn-lg btn-outline-primary col-lg-2">Pré-Molares<br>superiores</button>
-        <button type="button" data-area="MS" class="btn-default btn-lg btn-outline-primary col-lg-2">Molares<br>superiores</button>
-        <button type="button" data-area="PR" class="btn-default btn-lg btn-outline-primary col-lg-2">Particularidades<br>de SM</button>
+        <button type="button" data-prev="TM" data-area="IS" data-next="CS" class="btn-default btn-lg btn-outline-primary col-lg-2">Incisivos<br>superiores</button>
+        <button type="button" data-prev="IS" data-area="CS" data-next="PS" class="btn-default btn-lg btn-outline-primary col-lg-2">Caninos<br>superiores</button>
+        <button type="button" data-prev="CS" data-area="PS" data-next="MS" class="btn-default btn-lg btn-outline-primary col-lg-2">Pré-Molares<br>superiores</button>
+        <button type="button" data-prev="PS" data-area="MS" data-next="SM" class="btn-default btn-lg btn-outline-primary col-lg-2">Molares<br>superiores</button>
+        <button type="button" data-prev="MS" data-area="SM" data-next="II" class="btn-default btn-lg btn-outline-primary col-lg-2">Particularidades<br>de SM</button>
       </div>
       <div class="row justify-content-center">
-        <button type="button" data-area="II" class="btn-default btn-lg btn-outline-primary col-lg-2">Incisivos<br>Inferiores</button>
-        <button type="button" data-area="CI" class="btn-default btn-lg btn-outline-primary col-lg-2">Caninos<br>Inferiores</button>
-        <button type="button" data-area="PI" class="btn-default btn-lg btn-outline-primary col-lg-2">Pré-Molares<br>Inferiores</button>
-        <button type="button" data-area="MI" class="btn-default btn-lg btn-outline-primary col-lg-2">Molares<br>Inferiores</button>
-        <button type="button" data-area="TM" class="btn-default btn-lg btn-outline-primary col-lg-2">Imagem de<br>Tecidos Moles</button>
+        <button type="button" data-prev="SM" data-area="II" data-next="CI" class="btn-default btn-lg btn-outline-primary col-lg-2">Incisivos<br>Inferiores</button>
+        <button type="button" data-prev="II" data-area="CI" data-next="PI" class="btn-default btn-lg btn-outline-primary col-lg-2">Caninos<br>Inferiores</button>
+        <button type="button" data-prev="CI" data-area="PI" data-next="MI" class="btn-default btn-lg btn-outline-primary col-lg-2">Pré-Molares<br>Inferiores</button>
+        <button type="button" data-prev="PI" data-area="MI" data-next="TM" class="btn-default btn-lg btn-outline-primary col-lg-2">Molares<br>Inferiores</button>
+        <button type="button" data-prev="MI" data-area="TM" data-next="IS" class="btn-default btn-lg btn-outline-primary col-lg-2">Imagem de<br>Tecidos Moles</button>
       </div>
     </div>
   </header>
@@ -40,7 +40,7 @@
   <article class="container-fluid content">
     <h2 class="display-4 titulo"></h2>
     <div class="row">
-      <div class="col col-1 align-self-center"><button><</button></div>
+      <div class="col col-1 align-self-center prev-area"><button><</button></div>
       <div class="col">
         <h3 class="subtitulo">Radiolúcidas</h3>
         <section class="radiolucidas">
@@ -53,7 +53,7 @@
           </div>
         </section>
       </div>
-      <div class="col col-1 align-self-center"><button>></button></div>
+      <div class="col col-1 align-self-center next-area"><button>></button></div>
     </div>
   </article>
   <!-- End Principal Content -->
@@ -95,8 +95,8 @@
               <div class="col text-center acidente">
                 <img src="img/IS/IS 1.jpg" alt="" class="img-fluid">
                 <div class="btn-group justify-self-center">
-                  <div class="btn btn-primary">1</div>
-                  <div class="btn btn-primary">2</div>
+                  <div class="btn btn-primary pic-1">1</div>
+                  <div class="btn btn-primary pic-2">2</div>
                 </div>
               </div>
               <div class="col texto">

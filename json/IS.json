@@ -5,30 +5,40 @@
         {
             "acidente" : "Espinha nasal anterior",
             "description" : "Imagem radiopaca em forma de V, na região de linha média, entre ou acima dos ápices dentários.",
-            "path" : "img/IS/IS 1.jpg"            
+            "path" : "img/IS/IS 1.jpg",
+            "prev" : "img/IS/IS 11.jpg",
+            "next" : "img/IS/IS 2.jpg"             
 
         },
         {
             "acidente" : "Assoalho de fossas nasais",
             "description" : "Linha radiopaca que  delimita inferiormente as fossas nasais.",
-            "path" : "img/IS/IS 2.jpg"            
+            "path" : "img/IS/IS 2.jpg",
+            "prev" : "img/IS/IS 1.jpg",
+            "next" : "img/IS/IS 3.jpg"            
 
         },
         {
             "acidente" : "Conchas nasais inferiores",
             "description" : "Áreas radiopacas arredondadas localizadas no interior das fossas nasais.",
-            "path" : "img/IS/IS 3.jpg"            
+            "path" : "img/IS/IS 3.jpg",
+            "prev" : "img/IS/IS 2.jpg",
+            "next" : "img/IS/IS 4.jpg"            
 
         },
         {
             "acidente" : "Septo nasal",
             "description" : "Faixa radiopaca vertical entre as fossas nasais.",
-            "path" : "img/IS/IS 4.jpg"    
+            "path" : "img/IS/IS 4.jpg",
+            "prev" : "img/IS/IS 3.jpg",
+            "next" : "img/IS/IS 5.jpg"    
         },   
         {
             "acidente" : "Paredes do canal incisivo",
             "description" : "Linha radiopaca  que delimita lateralmente o canal incisivo e que se direciona do forame incisivo até as fossas nasais.",
-            "path" : "img/IS/IS 5.jpg"            
+            "path" : "img/IS/IS 5.jpg",
+            "prev" : "img/IS/IS 4.jpg",
+            "next" : "img/IS/IS 6.jpg"            
 
         }
     ],
@@ -36,37 +46,49 @@
         {
             "acidente" : "Sutura palatina mediana",
             "description" : "Imagem radiopaca em forma de V, na região de linha média, entre ou acima dos ápices dentários.",
-            "path" : "img/IS/IS 6.jpg"            
+            "path" : "img/IS/IS 6.jpg",
+            "prev" : "img/IS/IS 5.jpg",
+            "next" : "img/IS/IS 7.jpg"            
 
         },
         {
             "acidente" : "Fossas nasais",
             "description" : "Imagem radiopaca em forma de V, na região de linha média, entre ou acima dos ápices dentários.",
-            "path" : "img/IS/IS 7.jpg"            
+            "path" : "img/IS/IS 7.jpg",
+            "prev" : "img/IS/IS 6.jpg",
+            "next" : "img/IS/IS 8.jpg"            
 
         },       
         {
             "acidente" : "Forame incisivo",
             "description" : "Área radiolúcida oval ou arredondada, localizada entre as raízes dos incisivos centrais superiores.",
-            "path" : "img/IS/IS 8.jpg"            
+            "path" : "img/IS/IS 8.jpg",
+            "prev" : "img/IS/IS 7.jpg",
+            "next" : "img/IS/IS 9.jpg"            
 
         },
         {
             "acidente" : "Canal incisivo",
             "description" : "Faixa radiolúcida, limitada por linhas radiopacas (paredes), na linha média e que se estende do forame incisivo até o interior das fossas nasais.",
-            "path" : "img/IS/IS 9.jpg"            
+            "path" : "img/IS/IS 9.jpg",
+            "prev" : "img/IS/IS 8.jpg",
+            "next" : "img/IS/IS 10.jpg"            
 
         },
         {
             "acidente" : "Aberturas nasais do canal incisivo",
             "description" : "Duas pequenas áreas radiolucidas arredondadas ou ovaladas, próximas ao assoalho das fossas nasais e lateralmente ao septo nasal.",
-            "path" : "img/IS/IS 10.jpg"            
+            "path" : "img/IS/IS 10.jpg",
+            "prev" : "img/IS/IS 9.jpg",
+            "next" : "img/IS/IS 11.jpg"            
 
         },
         {
             "acidente" : "Fossa incisiva",
             "description" : "Área radiolúcida difusa, localizada acima do ápices radiculares dos incisivos superiores.",
-            "path" : "img/IS/IS 11.jpg"            
+            "path" : "img/IS/IS 11.jpg",
+            "prev" : "img/IS/IS 10.jpg",
+            "next" : "img/IS/IS 1.jpg"            
 
         }
     ]

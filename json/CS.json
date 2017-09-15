@@ -5,19 +5,26 @@
         {
             "acidente" : "Assoalho de seio maxilar",
             "description" : "Linha radiopaca que delimita a área radiolúcida correspondente ao seio maxilar.",
-            "path" : "img/CS/CS 1.jpg"            
+            "path" : "img/CS/CS 1.jpg",
+            "prev" : "img/CS/CS 6.jpg",
+            "next" : "img/CS/CS 2.jpg" 
+
 
         },
         {
             "acidente" : "Assoalho de fossa nasal",
             "description" : "Linha radiopaca que delimita inferiormente a fossa nasal.",
-            "path" : "img/CS/CS 2.jpg"            
+            "path" : "img/CS/CS 2.jpg",
+            "prev" : "img/CS/CS 1.jpg",
+            "next" : "img/CS/CS 3.jpg"             
 
         },
         {
             "acidente" : "Y invertido ou Y antral",
             "description" : "Linha radiopaca, em formato de Y invertido, formada pela intersecção do assoalho do seio maxilar e o assoalho da fossa nasal.",
-            "path" : "img/CS/CS 3.jpg"            
+            "path" : "img/CS/CS 3.jpg",
+            "prev" : "img/CS/CS 2.jpg",
+            "next" : "img/CS/CS 4.jpg"             
 
         }       
     ],
@@ -25,19 +32,26 @@
         {
             "acidente" : "Seio maxilar",
             "description" : "Área radiolúcida, de forma arredondada, limitada pelo assoalho do seio maxilar e localizada distalmente ao dente canino.",
-            "path" : "img/CS/CS 4.jpg"            
+            "path" : "img/CS/CS 4.jpg",
+            "prev" : "img/CS/CS 3.jpg",
+            "next" : "img/CS/CS 5.jpg"             
 
         },
         {
             "acidente" : "Fossa nasal",
             "description" : "Área radiolúcida limitada inferiormente pelo assoalho da fossa nasal, localizada mesialmente ao canino superior.",
-            "path" : "img/CS/CS 5.jpg"            
+            "path" : "img/CS/CS 5.jpg",
+            "prev" : "img/CS/CS 4.jpg",
+            "next" : "img/CS/CS 6.jpg"             
 
         },       
         {
             "acidente" : "Fossa canina",
             "description" : "Área radiolúcida, caracterizada por diminuição do trabeculado ósseo, localizada entre as raízes do incisivo lateral e canino superiores.",
-            "path" : "img/CS/CS 6.jpg"            
+            "path" : "img/CS/CS 6.jpg",
+            "prev" : "img/CS/CS 5.jpg",
+            "next" : "img/CS/CS 1.jpg" 
+
 
         }
     ]
