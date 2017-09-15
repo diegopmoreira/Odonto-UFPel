@@ -1,6 +1,6 @@
 "use strict";
 $(document).ready(function () {
-  var original_src;
+    var original_src;
 
     function loadJson(file) {
 
@@ -17,6 +17,7 @@ $(document).ready(function () {
     }
 
     var area;
+
 
     $(".grid-buttons button").click(function () {
         area = loadJson($(this).attr("data-area") + '.json');
@@ -37,28 +38,37 @@ $(document).ready(function () {
 
     });
 
-    $('.content').on('click','.img-fluid', function(){
-      var src = $(this).attr('src');
-      //console.log(src);     
-      $('.modal-body .acidente img').attr('src', src);
-    });
+    $('.content').on('click', '.img-fluid', function () {
+        var src = $(this).attr('src');
+        var acc_modal = jQuery.grep(area.radiopacas, function (n, i) {
+            return (area.radiopacas[i].path == src);
+        });
+       if(typeof acc_modal[0] !== 'object'){
+            acc_modal = jQuery.grep(area.radiolucida, function (n, i) {
+            return (area.radiolucida[i].path == src);
+        });
+       }
+    $('.modal-body .texto').text(acc_modal[0].description);
+    $('.modal-title').text(acc_modal[0].acidente);
+    $('.modal-body .acidente img').attr('src', src);
+});
 
-    $('.modal-body .acidente img').on('mouseover', function(){
-      original_src = $(this).attr('src');
-      console.log(original_src);
-      var split = $(this).attr('src').split(".");
-      var dest = split[0]+'_h.'+split[1];
-      $(this).attr('src', dest);
-    });
+$('.modal-body .acidente img').on('mouseover', function () {
+    original_src = $(this).attr('src');
+    console.log(original_src);
+    var split = $(this).attr('src').split(".");
+    var dest = split[0] + '_h.' + split[1];
+    $(this).attr('src', dest);
+});
 
-    $('.modal-body .acidente img').on('mouseout', function(){
-      var split = $(this).attr('src').split(".");
-      var dest = split[0]+'_h.'+split[1];
-      $(this).attr('src', original_src);
-    });
+$('.modal-body .acidente img').on('mouseout', function () {
+    var split = $(this).attr('src').split(".");
+    var dest = split[0] + '_h.' + split[1];
+    $(this).attr('src', original_src);
+});
 
-    $('.modal-body .next').on('click', function(){
-alert('AHHHHHHHHHHHHHMMMMMMMMMMMM OOOOOOOOOOOOOOOOOOOOOOOHHHHHHHHHHHHHHHHHMMMMMMMMMMMMMMMMM');
-    });
+$('.modal-body .next').on('click', function () {
+    alert('AHHHHHHHHHHHHHMMMMMMMMMMMM OOOOOOOOOOOOOOOOOOOOOOOHHHHHHHHHHHHHHHHHMMMMMMMMMMMMMMMMM');
+});
 
 });
