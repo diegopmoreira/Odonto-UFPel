@@ -1,0 +1,49 @@
+{
+    "area" : "Incisivos Inferiores",
+    "quantity" : 7,
+    "radiopacas" : [
+        {
+            "acidente" : "Protuberância mentual",
+            "description" : "Faixa radiopaca, em forma de “V invertido”, projetada sobre os ápices dos incisivos inferiores ou logo abaixo deles.",
+            "path" : "img/II/II 1.jpg"            
+
+        },
+        {
+            "acidente" : "Espinhas genianas",
+            "description" : "Área radiopaca irregular, na linha média e próxima à foramina lingual.",
+            "path" : "img/II/II 2.jpg"            
+
+        },
+        {
+            "acidente" : "Área de Reforço ou Paredes da Foramina Lingual",
+            "description" : "Anel radiopaco que circunda a foramina lingual.",
+            "path" : "img/II/II 3.jpg"            
+
+        },
+        {
+            "acidente" : "Base da mandíbula",
+            "description" : "Faixa radiopaca, homogênea e contínua, que delimita a mandíbula inferiormente.",
+            "path" : "img/II/II 4.jpg"    
+        }          
+    ],
+        "radiolucida" : [
+        {
+            "acidente" : "Fossa mentual",
+            "description" : "Área radiolúcida sem limites precisos, caracterizada por diminuição do trabeculado ósseo, abaixo da região apical dos incisivos inferiores.",
+            "path" : "img/II/II 5.jpg"            
+
+        },
+        {
+            "acidente" : "Foramina lingual",
+            "description" : "Ponto radiolúcido na linha média, na maioria das vezes circundado por um anel radiopaco, localizado abaixo dos ápices dos incisivos inferiores.",
+            "path" : "img/II/II 6.jpg"            
+
+        },       
+        {
+            "acidente" : "Canais nutrientes",
+            "description" : "Linhas radiolúcidas verticais que se direcionam para os ápices dentários ou os espaços interdentários.",
+            "path" : "img/II/II 7.jpg"            
+
+        }        
+    ]
+}

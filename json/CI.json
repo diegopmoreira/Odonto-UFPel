@@ -1,0 +1,26 @@
+{
+    "area" : "Caninos Inferiores" ,
+    "quantity" : 3,
+    "radiopacas" : [
+        {
+            "acidente" : "Base da mandíbula",
+            "description" : "Faixa radiopaca, homogênea e contínua, que delimita a mandíbula inferiormente",
+            "path" : "img/CI/CI 1.jpg"            
+
+        },
+        {
+            "acidente" : "Protuberância mentual",
+            "description" : "Faixa radiopaca que se estende da região anterior e é projetada sobre os ápices do canino e dos incisivos inferiores ou logo abaixo deles.",
+            "path" : "img/CI/CI 2.jpg"            
+
+        }        
+    ],
+        "radiolucida" : [
+        {
+            "acidente" : "Forame mentual",
+            "description" : "Área radiolúcida, arredondada, oval ou irregular, localizada próxima aos ápices dos pré-molares inferiores.",
+            "path" : "img/CI/CI 3.jpg"            
+
+        }        
+    ]
+}
