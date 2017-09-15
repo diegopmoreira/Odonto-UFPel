@@ -5,7 +5,9 @@
         {
             "acidente" : "Processo zigomático da maxila",
             "description" : "Faixa radiopaca em forma de “U”, localizada acima da região dos molares superiores.",
-            "path" : "img/MS/MS 1.jpg"            
+            "path" : "img/MS/MS 1.jpg",
+            "prev" : "img/MS/MS 10.jpg",
+            "next" : "img/MS/MS 2.jpg"               
 
         },
         {
@@ -17,7 +19,9 @@
         {
             "acidente" : "Processo pterigóide",
             "description" : "Área radiopaca localizada posteriormente e acima do túber.",
-            "path" : "img/MS/MS 3.jpg"            
+            "path" : "img/MS/MS 3.jpg",
+            "prev" : "img/MS/MS 2.jpg",
+            "next" : "img/MS/MS 4.jpg"             
 
         },
         {
@@ -28,25 +32,33 @@
         {
             "acidente" : "Processo coronóide da mandíbula",
             "description" : "Área radiopaca de forma triangular sobreposta ou abaixo da região de túber.",
-            "path" : "img/MS/MS 5.jpg"            
+            "path" : "img/MS/MS 5.jpg",
+            "prev" : "img/MS/MS 4.jpg",
+            "next" : "img/MS/MS 6.jpg"             
 
         },        
         {
             "acidente" : "Assoalho de seio maxilar",
             "description" : "Linha radiopaca sinuosa que delimita o seio maxilar.",
-            "path" : "img/MS/MS 6.jpg"            
+            "path" : "img/MS/MS 6.jpg",
+            "prev" : "img/MS/MS 5.jpg",
+            "next" : "img/MS/MS 7.jpg"             
 
         },
         {
             "acidente" : "Assoalho de fossa nasal",
             "description" : "Linha radiopaca horizontal que delimita a fossa nasal na parte superior da radiografia.",
-            "path" : "img/MS/MS 7.jpg"            
+            "path" : "img/MS/MS 7.jpg",
+            "prev" : "img/MS/MS 6.jpg",
+            "next" : "img/MS/MS 8.jpg"             
 
         },
         {
             "acidente" : "Túber da maxila",
             "description" : "Região mais posterior do processo alveolar da maxila, onde os espaços medulares são mais amplos.",
-            "path" : "img/MS/MS 8.jpg"            
+            "path" : "img/MS/MS 8.jpg",
+            "prev" : "img/MS/MS 7.jpg",
+            "next" : "img/MS/MS 9.jpg"             
 
         }
     ],
@@ -54,14 +66,18 @@
         {
             "acidente" : "Seio maxilar",
             "description" : "Área radiolúcida arredondada limitada por linha radiopaca (assoalho), de extensão variável, sobreposta ou acima dos ápices radiculares dos dentes posteriores.",
-            "path" : "img/MS/MS 9.jpg"            
+            "path" : "img/MS/MS 9.jpg",
+            "prev" : "img/MS/MS 8.jpg",
+            "next" : "img/MS/MS 10.jpg"            
 
         },
     
         {
             "acidente" : "Fossa nasal",
             "description" : "Área radiolúcida, delimitada por uma linha radiopaca retilínea (assoalho) na porção mais superior da radiografia.",
-            "path" : "img/MS/MS 10.jpg"            
+            "path" : "img/MS/MS 10.jpg",
+            "prev" : "img/MS/MS 9.jpg",
+            "next" : "img/MS/MS 1.jpg"             
 
         }
     ]
