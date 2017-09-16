@@ -33,30 +33,29 @@
         <button type="button" data-prev="MI" data-area="TM" data-next="IS" class="btn-default btn-lg btn-outline-primary col-lg-2">Imagem de<br>Tecidos Moles</button>
       </div>
     </div>
-
-  <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle btn-lg justify-content-center btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Regiões</button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <button type="button" data-prev="TM" data-area="IS" data-next="CS" class="btn-default btn-block dropdown-item">Incisivos<br>superiores</button>
-    <button type="button" data-prev="IS" data-area="CS" data-next="PS" class="btn-default btn-block dropdown-item">Caninos<br>superiores</button>
-    <button type="button" data-prev="CS" data-area="PS" data-next="MS" class="btn-default btn-block dropdown-item">Pré-Molares<br>superiores</button>
-    <button type="button" data-prev="PS" data-area="MS" data-next="SM" class="btn-default btn-block dropdown-item">Molares<br>superiores</button>
-    <button type="button" data-prev="MS" data-area="SM" data-next="II" class="btn-default btn-block dropdown-item">Particularidades<br>de SM</button>
-    <button type="button" data-prev="SM" data-area="II" data-next="CI" class="btn-default btn-block dropdown-item">Incisivos<br>Inferiores</button>
-    <button type="button" data-prev="II" data-area="CI" data-next="PI" class="btn-default btn-block dropdown-item">Caninos<br>Inferiores</button>
-    <button type="button" data-prev="CI" data-area="PI" data-next="MI" class="btn-default btn-block dropdown-item">Pré-Molares<br>Inferiores</button>
-    <button type="button" data-prev="PI" data-area="MI" data-next="TM" class="btn-default btn-block dropdown-item">Molares<br>Inferiores</button>
-    <button type="button" data-prev="MI" data-area="TM" data-next="IS" class="btn-default btn-block dropdown-item">Imagem de<br>Tecidos Moles</button>
-  </div>
-</div>
-</header>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle btn-lg justify-content-center btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Regiões</button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <button type="button" data-prev="TM" data-area="IS" data-next="CS" class="btn-default btn-block dropdown-item">Incisivos<br>superiores</button>
+        <button type="button" data-prev="IS" data-area="CS" data-next="PS" class="btn-default btn-block dropdown-item">Caninos<br>superiores</button>
+        <button type="button" data-prev="CS" data-area="PS" data-next="MS" class="btn-default btn-block dropdown-item">Pré-Molares<br>superiores</button>
+        <button type="button" data-prev="PS" data-area="MS" data-next="SM" class="btn-default btn-block dropdown-item">Molares<br>superiores</button>
+        <button type="button" data-prev="MS" data-area="SM" data-next="II" class="btn-default btn-block dropdown-item">Particularidades<br>de SM</button>
+        <button type="button" data-prev="SM" data-area="II" data-next="CI" class="btn-default btn-block dropdown-item">Incisivos<br>Inferiores</button>
+        <button type="button" data-prev="II" data-area="CI" data-next="PI" class="btn-default btn-block dropdown-item">Caninos<br>Inferiores</button>
+        <button type="button" data-prev="CI" data-area="PI" data-next="MI" class="btn-default btn-block dropdown-item">Pré-Molares<br>Inferiores</button>
+        <button type="button" data-prev="PI" data-area="MI" data-next="TM" class="btn-default btn-block dropdown-item">Molares<br>Inferiores</button>
+        <button type="button" data-prev="MI" data-area="TM" data-next="IS" class="btn-default btn-block dropdown-item">Imagem de<br>Tecidos Moles</button>
+      </div>
+    </div>
+  </header>
   <!-- End Main Menu -->
 
   <!-- Principal Content -->
   <article class="container-fluid content">
     <h2 class="display-4 titulo"></h2>
     <div class="row">
-      <div class="col col-1 align-self-center prev-area"><button><</button></div>
+      <div class="col col-1 align-self-center prev-area d"><button><</button></div>
       <div class="col">
         <h3 class="subtitulo">Radiolúcidas</h3>
         <section class="radiolucidas">
@@ -69,7 +68,11 @@
           </div>
         </section>
       </div>
-      <div class="col col-1 align-self-center next-area"><button>></button></div>
+      <div class="col col-1 align-self-center next-area d"><button>></button></div>
+    </div>
+    <div class="row m">
+      <div class="col align-self-center prev-area"><button><</button></div>
+      <div class="col align-self-center next-area"><button>></button></div>
     </div>
   </article>
   <!-- End Principal Content -->
@@ -102,10 +105,8 @@
           <span aria-hidden="true">&times;</span>
         </button>
         </div>
-
         <div class="modal-body">
           <div class="container-fluid">
-
             <div class="row">
               <div class="col-1 align-self-center prev d">
                 <button class="btn btn-outline-primary btn-lg"><</button>
@@ -127,10 +128,8 @@
               <button class="col prev m btn btn-outline-primary"><</button>
               <button class="col next m btn btn-outline-primary">></button>
             </div>
-
           </div>
         </div>
-
       </div>
     </div>
   </div>
