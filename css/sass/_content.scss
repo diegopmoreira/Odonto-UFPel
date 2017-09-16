@@ -3,7 +3,7 @@
   background-color: $body-color;
   color: $header-color;
 
-  .col-1 {
+  .prev-area, .next-area {
     button {
       font-size: 3em;
       border: 2px solid $header-color;
@@ -40,5 +40,17 @@
   .radio {
     padding-bottom: 20px;
     width: 100%;
+  }
+  .m{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    @media screen and (min-width: 1024px) {
+      display: none;
+    }
+  }
+  .d{
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
   }
 }

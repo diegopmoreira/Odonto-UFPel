@@ -5,6 +5,9 @@
   h1 {
     color: $body-color;
     text-align: center;
+    @media screen and (max-width: 1024px) {
+      font-size: 3.5em;
+    }
   }
 
   .grid-buttons {
