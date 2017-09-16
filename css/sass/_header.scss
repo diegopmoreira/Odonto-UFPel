@@ -8,6 +8,9 @@
   }
 
   .grid-buttons {
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
     &::after,
     &::before {
       content: "";
@@ -28,6 +31,17 @@
         background-color: $block-color;
         color: $header-color;
       }
+    }
+  }
+
+  .dropdown {
+    margin: 20px 0;
+    background-color: $header-color;
+    @media screen and (min-width: 1024px) {
+      display: none;
+    }
+    .dropdown-item{
+      width: 100%;
     }
   }
 }
