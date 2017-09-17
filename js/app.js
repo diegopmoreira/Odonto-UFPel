@@ -22,7 +22,7 @@ $(document).ready(function () {
     var actual_area, prev_area, next_area;
 
     if ($('.titulo').text() == '') {
-        $('.content').addClass('display-none');
+        $('.content').addClass('d-none');
     }
 
     $(".grid-buttons button").click(function () {
@@ -39,7 +39,7 @@ $(document).ready(function () {
         $.each(area.radiopacas, function (i, acidente) {
             $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiopacas[i].path + '" data-toggle="modal" data-target=".modal-acc"></img></div>');
         });
-        $('.content').removeClass('display-none');
+        $('.content').removeClass('d-none');
         $('html, body').animate({
             scrollTop: $(".content").offset().top
         }, 1000);
