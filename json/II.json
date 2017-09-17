@@ -7,7 +7,8 @@
             "description" : "Faixa radiopaca, em forma de “V invertido”, projetada sobre os ápices dos incisivos inferiores ou logo abaixo deles.",
             "path" : "img/II/II 1.jpg",
             "prev" : "img/II/II 7.jpg", 
-            "next" : "img/II/II 2.jpg"            
+            "next" : "img/II/II 2.jpg"            ,
+            "mult" : false
 
         },
         {
@@ -15,7 +16,8 @@
             "description" : "Área radiopaca irregular, na linha média e próxima à foramina lingual.",
             "path" : "img/II/II 2.jpg",
             "prev" : "img/II/II 1.jpg", 
-            "next" : "img/II/II 3.jpg"             
+            "next" : "img/II/II 3.jpg"             ,
+            "mult" : false
 
         },
         {
@@ -23,7 +25,8 @@
             "description" : "Anel radiopaco que circunda a foramina lingual.",
             "path" : "img/II/II 3.jpg",
             "prev" : "img/II/II 2.jpg", 
-            "next" : "img/II/II 4.jpg"             
+            "next" : "img/II/II 4.jpg"             ,
+            "mult" : false
 
         },
         {
@@ -31,7 +34,8 @@
             "description" : "Faixa radiopaca, homogênea e contínua, que delimita a mandíbula inferiormente.",
             "path" : "img/II/II 4.jpg",
             "prev" : "img/II/II 3.jpg", 
-            "next" : "img/II/II 5.jpg"     
+            "next" : "img/II/II 5.jpg"     ,
+            "mult" : false
         }          
     ],
         "radiolucida" : [
@@ -40,7 +44,8 @@
             "description" : "Área radiolúcida sem limites precisos, caracterizada por diminuição do trabeculado ósseo, abaixo da região apical dos incisivos inferiores.",
             "path" : "img/II/II 5.jpg",
             "prev" : "img/II/II 4.jpg", 
-            "next" : "img/II/II 6.jpg"             
+            "next" : "img/II/II 6.jpg"             ,
+            "mult" : true
 
         },
         {
@@ -48,7 +53,8 @@
             "description" : "Ponto radiolúcido na linha média, na maioria das vezes circundado por um anel radiopaco, localizado abaixo dos ápices dos incisivos inferiores.",
             "path" : "img/II/II 6.jpg",
             "prev" : "img/II/II 5.jpg", 
-            "next" : "img/II/II 7.jpg"            
+            "next" : "img/II/II 7.jpg"            ,
+            "mult" : false
 
         },       
         {
@@ -56,7 +62,8 @@
             "description" : "Linhas radiolúcidas verticais que se direcionam para os ápices dentários ou os espaços interdentários.",
             "path" : "img/II/II 7.jpg", 
             "prev" : "img/II/II 6.jpg", 
-            "next" : "img/II/II 1.jpg"             
+            "next" : "img/II/II 1.jpg"             ,
+            "mult" : false
 
         }        
     ]

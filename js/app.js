@@ -57,6 +57,16 @@ $(document).ready(function () {
                 return (area.radiolucida[i].path == src);
             });
         }
+        if(acc_modal[0].mult == false){
+ 
+          $('.modal-body .acidente .btn-group').addClass('d-none');
+ 
+        }else{
+ 
+          $('.modal-body .acidente .btn-group').removeClass('d-none');
+ 
+        }
+ 
 
         $('.modal-body .texto').text(acc_modal[0].description);
         $('.modal-title').text(acc_modal[0].acidente);
@@ -126,6 +136,16 @@ $(document).ready(function () {
                 return (area.radiolucida[i].path == src);
             });
         }
+        if(acc_modal[0].mult == false){
+ 
+          $('.modal-body .acidente .btn-group').addClass('d-none');
+ 
+        }else{
+ 
+          $('.modal-body .acidente .btn-group').removeClass('d-none');
+ 
+        }
+ 
 
         $('.modal-body .texto').text(acc_modal[0].description);
         $('.modal-title').text(acc_modal[0].acidente);
@@ -142,6 +162,16 @@ $(document).ready(function () {
                 return (area.radiolucida[i].path == src);
             });
         }
+        if(acc_modal[0].mult == false){
+ 
+          $('.modal-body .acidente .btn-group').addClass('d-none');
+ 
+        }else{
+ 
+          $('.modal-body .acidente .btn-group').removeClass('d-none');
+ 
+        }
+ 
 
         $('.modal-body .texto').text(acc_modal[0].description);
         $('.modal-title').text(acc_modal[0].acidente);

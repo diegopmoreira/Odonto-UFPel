@@ -7,7 +7,8 @@
             "description" : "Linha radiopaca sinuosa  que delimita o seio maxilar.",
             "path" : "img/PS/PS 1.jpg",
             "prev" : "img/PS/PS 4.jpg",
-            "next" : "img/PS/PS 2.jpg"             
+            "next" : "img/PS/PS 2.jpg"             ,
+            "mult" : false
 
         },
         {
@@ -15,7 +16,8 @@
             "description" : "Linha radiopaca horizontal, na parte superior da radiografia, que delimita a fossa nasal.",
             "path" : "img/PS/PS 2.jpg",
             "prev" : "img/PS/PS 1.jpg",
-            "next" : "img/PS/PS 3.jpg"            
+            "next" : "img/PS/PS 3.jpg"            ,
+            "mult" : false
 
         }       
     ],
@@ -25,7 +27,8 @@
             "description" : "Área radiolúcida arredondada, limitada por linha radiopaca (assoalho), de extensão variável, sobreposta ou acima dos ápices radiculares dos dentes posteriores.",
             "path" : "img/PS/PS 3.jpg",
             "prev" : "img/PS/PS 2.jpg",
-            "next" : "img/PS/PS 4.jpg"            
+            "next" : "img/PS/PS 4.jpg"            ,
+            "mult" : false
 
         },
         {
@@ -33,7 +36,8 @@
             "description" : "Área radiolúcida na porção superior da radiografia limitada por linha radiopaca (assoalho).",
             "path" : "img/PS/PS 4.jpg",
             "prev" : "img/PS/PS 3.jpg",
-            "next" : "img/PS/PS 1.jpg"            
+            "next" : "img/PS/PS 1.jpg"            ,
+            "mult" : false
 
         }
     ]

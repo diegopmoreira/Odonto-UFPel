@@ -7,7 +7,8 @@
             "description" : "Linhas radiopacas  que  delimitam superior e inferiormente o canal da mandíbula.",
             "path" : "img/MI/MI 1.jpg",
             "prev" : "img/MI/MI 6.jpg",
-            "next" : "img/MI/MI 2.jpg"            
+            "next" : "img/MI/MI 2.jpg"           ,
+            "mult" : false
 
         },
         {
@@ -15,7 +16,8 @@
             "description" : "Faixa radiopaca que se soprepõe ou está abaixo dos ápices das raízes dos molares inferiores.",
             "path" : "img/MI/MI 2.jpg",
             "prev" : "img/MI/MI 1.jpg",
-            "next" : "img/MI/MI 3.jpg"               
+            "next" : "img/MI/MI 3.jpg"              ,
+            "mult" : true
 
         },
         {
@@ -23,7 +25,8 @@
             "description" : "Faixa radiopaca que se sobrepões às raízes de molares ao nível de terço cervical e médio.",
             "path" : "img/MI/MI 3.jpg",
             "prev" : "img/MI/MI 2.jpg",
-            "next" : "img/MI/MI 4.jpg"               
+            "next" : "img/MI/MI 4.jpg"              ,
+            "mult" : false
 
         },
         {
@@ -31,7 +34,8 @@
             "description" : "Faixa radiopaca homogênea e contínua que delimita a mandíbula inferiormente",
             "path" : "img/MI/MI 4.jpg",
             "prev" : "img/MI/MI 3.jpg",
-            "next" : "img/MI/MI 5.jpg"       
+            "next" : "img/MI/MI 5.jpg"      ,
+            "mult" : false
         }
     ],
         "radiolucida" : [
@@ -40,7 +44,8 @@
             "description" : "Faixa radiolúcida, limitada por duas linhas radiopacas (paredes), visualizada abaixo ou sobreposta aos ápices dos molares.",
             "path" : "img/MI/MI 5.jpg",
             "prev" : "img/MI/MI 4.jpg",
-            "next" : "img/MI/MI 6.jpg"               
+            "next" : "img/MI/MI 6.jpg"              ,
+            "mult" : false
 
         },
         {
@@ -48,7 +53,8 @@
             "description" : "Área radiolúcida, sem limites precisos,  caracterizada por diminuição do trabeculado ósseo, abaixo dos molares inferiores.",
             "path" : "img/MI/MI 6.jpg",
             "prev" : "img/MI/MI 5.jpg",
-            "next" : "img/MI/MI 1.jpg"               
+            "next" : "img/MI/MI 1.jpg"              ,
+            "mult" : false
 
         }
     ]

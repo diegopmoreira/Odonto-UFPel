@@ -7,7 +7,8 @@
             "description" : "Faixa radiopaca, homogênea e contínua, que delimita a mandíbula inferiormente",
             "path" : "img/CI/CI 1.jpg",
             "prev" : "img/CI/CI 3.jpg",
-            "next" : "img/CI/CI 2.jpg"
+            "next" : "img/CI/CI 2.jpg",
+            "mult" : false
             
 
         },
@@ -16,7 +17,8 @@
             "description" : "Faixa radiopaca que se estende da região anterior e é projetada sobre os ápices do canino e dos incisivos inferiores ou logo abaixo deles.",
             "path" : "img/CI/CI 2.jpg",
             "prev" : "img/CI/CI 1.jpg",
-            "next" : "img/CI/CI 3.jpg"
+            "next" : "img/CI/CI 3.jpg",
+            "mult" : false
                       
 
         }        
@@ -27,7 +29,8 @@
             "description" : "Área radiolúcida, arredondada, oval ou irregular, localizada próxima aos ápices dos pré-molares inferiores.",
             "path" : "img/CI/CI 3.jpg",
             "prev" : "img/CI/CI 2.jpg", 
-            "next" : "img/CI/CI 1.jpg"                    
+            "next" : "img/CI/CI 1.jpg"                    ,
+            "mult" : false
 
         }        
     ]
