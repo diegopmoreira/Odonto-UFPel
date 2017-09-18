@@ -30,14 +30,20 @@ $(document).ready(function () {
         prev_area = $(this).attr("data-prev");
         next_area = $(this).attr("data-next");
         area = loadJson(actual_area + '.json');
+        var image_h;
 
         $(".radio .col").remove();
         $(".titulo").text(area.area);
         $.each(area.radiolucida, function (i, acidente) {
-            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiolucida[i].path + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiolucida[i].acidente + '</h4></div>');
+            image_h = area.radiolucida[i].path.split(".");
+            image_h = image_h[0] + '_h.' + image_h[1];
+            
+            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + image_h + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiolucida[i].acidente + '</h4></div>');
         });
         $.each(area.radiopacas, function (i, acidente) {
-            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiopacas[i].path + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiopacas[i].acidente + '</h4></div>');
+            image_h = area.radiopacas[i].path.split(".");
+            image_h = image_h[0] + '_h.' + image_h[1];
+            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + image_h + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiopacas[i].acidente + '</h4></div>');
         });
         $('.content').removeClass('d-none');
         $('html, body').animate({
@@ -48,7 +54,8 @@ $(document).ready(function () {
     });
 
     $('.content').on('click', '.img-fluid', function () {
-        src = $(this).attr('src');
+        var aux = $(this).attr('src').split("_h");        
+        src = aux[0]+aux[1];
         acc_modal = jQuery.grep(area.radiopacas, function (n, i) {
             return (area.radiopacas[i].path == src);
         });
@@ -68,18 +75,20 @@ $(document).ready(function () {
         $('.modal-body .acidente img').attr('src', src);
     });
 
-    $('.modal-body .acidente img').on('mouseover', function () {
-        original_src = $(this).attr('src');
+    $('.modal-body .acidente img').on('touchstart mouseover', function () {
+        var aux = $(this).attr('src').split("_h");        
+        original_src = aux[0];
+        console.log(aux[0],aux[1],original_src);
         var split = $(this).attr('src').split(".");
         var dest = split[0] + '_h.' + split[1];
 
         $(this).attr('src', dest);
     });
 
-    $('.modal-body .acidente img').on('mouseout', function () {
+    $('.modal-body .acidente img').on('touchend mouseout', function () {
         var split = $(this).attr('src').split(".");
         var dest = split[0] + '_h.' + split[1];
-
+        console.log(original_src);
         $(this).attr('src', original_src);
     });
 
@@ -91,10 +100,14 @@ $(document).ready(function () {
         $(".radio .col").remove();
         $(".titulo").text(area.area);
         $.each(area.radiolucida, function (i, acidente) {
-            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiolucida[i].path + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiolucida[i].acidente + '</h4></div>');
+            image_h = area.radiolucida[i].path.split(".");
+            image_h = image_h[0] + '_h.' + image_h[1];
+            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + image_h + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiolucida[i].acidente + '</h4></div>');
         });
         $.each(area.radiopacas, function (i, acidente) {
-            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiopacas[i].path + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiopacas[i].acidente + '</h4></div>');
+            image_h = area.radiopacas[i].path.split(".");
+            image_h = image_h[0] + '_h.' + image_h[1];
+            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + image_h + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiopacas[i].acidente + '</h4></div>');
         });
         actual_area = prev_area;
         $(".content .col img").css("max-width", "200px");
@@ -105,14 +118,19 @@ $(document).ready(function () {
         prev_area = $("[data-area=" + actual_area + "]").attr("data-prev");
         next_area = $("[data-area=" + actual_area + "]").attr("data-next");
         area = loadJson(next_area + '.json');
+        var image_h;
 
         $(".radio .col").remove();
         $(".titulo").text(area.area);
         $.each(area.radiolucida, function (i, acidente) {
-            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiolucida[i].path + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiolucida[i].acidente + '</h4></div>');
+            image_h = area.radiolucida[i].path.split(".");
+            image_h = image_h[0] + '_h.' + image_h[1];
+            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + image_h + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiolucida[i].acidente + '</h4></div>');
         });
         $.each(area.radiopacas, function (i, acidente) {
-            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiopacas[i].path + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiopacas[i].acidente + '</h4></div>');
+            image_h = area.radiopacas[i].path.split(".");
+            image_h = image_h[0] + '_h.' + image_h[1];
+            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + image_h + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiopacas[i].acidente + '</h4></div>');
         });
         actual_area = next_area;
         $(".content .col img").css("max-width", "200px");
