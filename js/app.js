@@ -34,10 +34,10 @@ $(document).ready(function () {
         $(".radio .col").remove();
         $(".titulo").text(area.area);
         $.each(area.radiolucida, function (i, acidente) {
-            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiolucida[i].path + '" data-toggle="modal" data-target=".modal-acc"></img></div>');
+            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiolucida[i].path + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiolucida[i].acidente + '</h4></div>');
         });
         $.each(area.radiopacas, function (i, acidente) {
-            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiopacas[i].path + '" data-toggle="modal" data-target=".modal-acc"></img></div>');
+            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiopacas[i].path + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiopacas[i].acidente + '</h4></div>');
         });
         $('.content').removeClass('d-none');
         $('html, body').animate({
@@ -91,10 +91,10 @@ $(document).ready(function () {
         $(".radio .col").remove();
         $(".titulo").text(area.area);
         $.each(area.radiolucida, function (i, acidente) {
-            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiolucida[i].path + '" data-toggle="modal" data-target=".modal-acc"></img></div>');
+            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiolucida[i].path + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiolucida[i].acidente + '</h4></div>');
         });
         $.each(area.radiopacas, function (i, acidente) {
-            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiopacas[i].path + '" data-toggle="modal" data-target=".modal-acc"></img></div>');
+            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiopacas[i].path + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiopacas[i].acidente + '</h4></div>');
         });
         actual_area = prev_area;
         $(".content .col img").css("max-width", "200px");
@@ -109,10 +109,10 @@ $(document).ready(function () {
         $(".radio .col").remove();
         $(".titulo").text(area.area);
         $.each(area.radiolucida, function (i, acidente) {
-            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiolucida[i].path + '" data-toggle="modal" data-target=".modal-acc"></img></div>');
+            $(".radiolucidas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiolucida[i].path + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiolucida[i].acidente + '</h4></div>');
         });
         $.each(area.radiopacas, function (i, acidente) {
-            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiopacas[i].path + '" data-toggle="modal" data-target=".modal-acc"></img></div>');
+            $(".radiopacas .radio").append('<div class="col"><img class="img-fluid" alt="" src="' + area.radiopacas[i].path + '" data-toggle="modal" data-target=".modal-acc"></img><h4>' + area.radiopacas[i].acidente + '</h4></div>');
         });
         actual_area = next_area;
         $(".content .col img").css("max-width", "200px");

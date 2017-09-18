@@ -23,7 +23,7 @@
       "path": "img/TM/TM 3.jpg",
       "prev": "img/TM/TM 2.jpg",
       "next": "img/TM/TM 4.jpg",
-      "mult": false
+      "mult": true
     },
     {
       "acidente": "Projeção do sulco nasolabial",
