@@ -1,0 +1,45 @@
+{
+  "area": "Particularidades do SM",
+  "quantity": 5,
+  "radiopacas": [{
+    "acidente": "Septo sinusal",
+    "description": "Linha radiopaca com trajeto ascendente no interior do seio maxilar. ",
+    "path": "img/SM/SM 1.jpg",
+    "prev": "img/SM/SM 5.jpg",
+    "next": "img/SM/SM 2.jpg",
+    "mult": false
+  }],
+  "radiolucida": [{
+      "acidente": "Canais nutrientes",
+      "description": "Linhas radiolúcidas no interior do seio maxilar.",
+      "path": "img/SM/SM 2.jpg",
+      "prev": "img/SM/SM 1.jpg",
+      "next": "img/SM/SM 3.jpg",
+      "mult": false
+    },
+    {
+      "acidente": "Extensão alveolar",
+      "description": "Área radiolúcida limitada por linha radiopaca que se estende em direção ao rebordo alveolar, geralmente associada a perda dentária na região.",
+      "path": "img/SM/SM 3.jpg",
+      "prev": "img/SM/SM 2.jpg",
+      "next": "img/SM/SM 4.jpg",
+      "mult": false
+    },
+    {
+      "acidente": "Extensão anterior",
+      "description": "Área radiolúcida do seio maxilar, limitada por linha radiopaca que se estende  anteriormente, visualizada na região de incisivos superiores.",
+      "path": "img/SM/SM 4.jpg",
+      "prev": "img/SM/SM 3.jpg",
+      "next": "img/SM/SM 5.jpg",
+      "mult": false
+    },
+    {
+      "acidente": "Extensão para túber",
+      "description": "Área radiolúcida do seio maxilar, limitada por linha radiopaca e que se estende para região do túber.",
+      "path": "img/SM/SM 5.jpg",
+      "prev": "img/SM/SM 4.jpg",
+      "next": "img/SM/SM 1.jpg",
+      "mult": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+.header {
+  background-color: $header-color;
+  padding-bottom: 20px;
+
+  h1 {
+    color: $body-color;
+    text-align: center;
+    @media screen and (max-width: 1024px) {
+      font-size: 3.5em;
+    }
+  }
+
+  .grid-buttons {
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
+    &::after,
+    &::before {
+      content: "";
+      display: block;
+      width: 20%;
+      height: 5px;
+      margin: 20px auto;
+      background-color: $body-color;
+    }
+
+    button {
+      margin: 5px;
+      border: 3px solid $block-color;
+      color: $block-color;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background-color: $block-color;
+        color: $header-color;
+      }
+    }
+  }
+
+  .dropdown {
+    margin: 20px 0;
+    background-color: $header-color;
+    @media screen and (min-width: 1024px) {
+      display: none;
+    }
+    .dropdown-item{
+      width: 100%;
+    }
+  }
+}

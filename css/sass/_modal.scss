@@ -1,0 +1,21 @@
+.modal-body {
+  .next,
+  .prev {
+    font-size: 2.5em;
+  }
+  .m{
+    margin-top: 5px;
+    @media screen and (min-width: 1024px) {
+      display: none;
+    }
+  }
+  .d{
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
+  }
+  .btn-group{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+}
