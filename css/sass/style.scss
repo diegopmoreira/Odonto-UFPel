@@ -11,3 +11,7 @@ $font: Helvetica;
 @import "content";
 @import "footer";
 @import "modal";
+
+body{
+	background-color: $footer-color;
+}
