@@ -7,7 +7,7 @@
     "path": "img/SM/SM 1.jpg",
     "prev": "img/SM/SM 5.jpg",
     "next": "img/SM/SM 2.jpg",
-    "mult": false
+    "mult": true
   }],
   "radiolucida": [{
       "acidente": "Canais nutrientes",
@@ -31,7 +31,7 @@
       "path": "img/SM/SM 4.jpg",
       "prev": "img/SM/SM 3.jpg",
       "next": "img/SM/SM 5.jpg",
-      "mult": false
+      "mult": true
     },
     {
       "acidente": "Extensão para túber",
