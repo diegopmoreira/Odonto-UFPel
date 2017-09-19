@@ -44,7 +44,7 @@
   ],
   "radiolucida": [{
       "acidente": "Sutura palatina mediana",
-      "description": "Imagem radiopaca em forma de V, na região de linha média, entre ou acima dos ápices dentários.",
+      "description": "Linha radiolúcida, vertical e irregular, localizada entre os incisivos centrais, na linha média.",
       "path": "img/IS/IS 6.jpg",
       "prev": "img/IS/IS 5.jpg",
       "next": "img/IS/IS 7.jpg",
@@ -52,7 +52,7 @@
     },
     {
       "acidente": "Fossas nasais",
-      "description": "Imagem radiopaca em forma de V, na região de linha média, entre ou acima dos ápices dentários.",
+      "description": "Áreas radiolúcidas, simétricas, separadas por uma faixa radiopaca (septo nasal), localizada acima dos ápices dos incisivos.",
       "path": "img/IS/IS 7.jpg",
       "prev": "img/IS/IS 6.jpg",
       "next": "img/IS/IS 8.jpg",

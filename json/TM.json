@@ -1,7 +1,8 @@
 {
   "area": "Imagem de tecidos moles",
   "quantity": 11,
-  "radiopacas": [{
+  "radiopacas": [
+    {
       "acidente": "Projeção do lábio superior",
       "description": "Área discretamente radiopaca em terço médio ou incisal da coroa dos incisivos superiores.",
       "path": "img/TM/TM 1.jpg",
@@ -11,7 +12,7 @@
     },
     {
       "acidente": "Projeção do Lábio inferior",
-      "description": "Área discretamente radiopaca  em terço médio ou incisal das coroas dos incisivos inferiores.",
+      "description": "Área discretamente radiopaca em terço médio ou incisal das coroas dos incisivos inferiores.",
       "path": "img/TM/TM 2.jpg",
       "prev": "img/TM/TM 1.jpg",
       "next": "img/TM/TM 3.jpg",
@@ -19,7 +20,7 @@
     },
     {
       "acidente": "Projeção do nariz",
-      "description": "Área discretamente radiopaca  que se sobrepõe às raízes dos incisivos superiores.",
+      "description": "Área discretamente radiopaca que se sobrepõe às raízes dos incisivos superiores.",
       "path": "img/TM/TM 3.jpg",
       "prev": "img/TM/TM 2.jpg",
       "next": "img/TM/TM 4.jpg",

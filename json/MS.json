@@ -1,7 +1,8 @@
 {
   "area": "Molares Superiores",
   "quantity": 10,
-  "radiopacas": [{
+  "radiopacas": [
+    {
       "acidente": "Processo zigomático da maxila",
       "description": "Faixa radiopaca em forma de “U”, localizada acima da região dos molares superiores.",
       "path": "img/MS/MS 1.jpg",
@@ -11,7 +12,7 @@
     },
     {
       "acidente": "Osso zigomático",
-      "description": "Área radiopaca  que se estende para a distal do processo zigomático da maxila.",
+      "description": "Área radiopaca que se estende para a distal do processo zigomático da maxila.",
       "path": "img/MS/MS 2.jpg",
       "prev": "img/MS/MS 1.jpg",
       "next": "img/MS/MS 3.jpg",
@@ -27,7 +28,7 @@
     },
     {
       "acidente": "Hâmulo pterigóideo",
-      "description": "Imagem radiopaca  em forma de gancho, localizada posteriormente ao túber da maxila.",
+      "description": "Imagem radiopaca em forma de gancho, localizada posteriormente ao túber da maxila.",
       "path": "img/MS/MS 4.jpg",
       "prev": "img/MS/MS 3.jpg",
       "next": "img/MS/MS 5.jpg",
@@ -66,7 +67,8 @@
       "mult": true
     }
   ],
-  "radiolucida": [{
+  "radiolucida": [
+    {
       "acidente": "Seio maxilar",
       "description": "Área radiolúcida arredondada limitada por linha radiopaca (assoalho), de extensão variável, sobreposta ou acima dos ápices radiculares dos dentes posteriores.",
       "path": "img/MS/MS 9.jpg",
