@@ -75,7 +75,7 @@ $(document).ready(function () {
         $('.modal-body .acidente img').attr('src', src);
     });
 
-    $('.modal-body .acidente img').on('touchstart mouseover', function () {
+    $('.modal-body .acidente img').on('mouseover', function () {
         var aux = $(this).attr('src').split("_h");        
         original_src = aux[0];
         console.log(aux[0],aux[1],original_src);
@@ -85,7 +85,7 @@ $(document).ready(function () {
         $(this).attr('src', dest);
     });
 
-    $('.modal-body .acidente img').on('touchend mouseout', function () {
+    $('.modal-body .acidente img').on('mouseout', function () {
         var split = $(this).attr('src').split(".");
         var dest = split[0] + '_h.' + split[1];
         console.log(original_src);
