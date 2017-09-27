@@ -4,34 +4,34 @@
   "radiopacas": [{
       "acidente": "Assoalho de seio maxilar",
       "description": "Linha radiopaca sinuosa  que delimita o seio maxilar.",
-      "path": "img/PS/PS 1.jpg",
-      "prev": "img/PS/PS 4.jpg",
-      "next": "img/PS/PS 2.jpg",
+      "path": "img/PS/PS 1.png",
+      "prev": "img/PS/PS 4.png",
+      "next": "img/PS/PS 2.png",
       "mult": false
     },
     {
       "acidente": "Assoalho de fossa nasal",
       "description": "Linha radiopaca horizontal, na parte superior da radiografia, que delimita a fossa nasal.",
-      "path": "img/PS/PS 2.jpg",
-      "prev": "img/PS/PS 1.jpg",
-      "next": "img/PS/PS 3.jpg",
+      "path": "img/PS/PS 2.png",
+      "prev": "img/PS/PS 1.png",
+      "next": "img/PS/PS 3.png",
       "mult": false
     }
   ],
   "radiolucida": [{
       "acidente": "Seio maxilar",
       "description": "Área radiolúcida arredondada, limitada por linha radiopaca (assoalho), de extensão variável, sobreposta ou acima dos ápices radiculares dos dentes posteriores.",
-      "path": "img/PS/PS 3.jpg",
-      "prev": "img/PS/PS 2.jpg",
-      "next": "img/PS/PS 4.jpg",
+      "path": "img/PS/PS 3.png",
+      "prev": "img/PS/PS 2.png",
+      "next": "img/PS/PS 4.png",
       "mult": false
     },
     {
       "acidente": "Fossa nasal",
       "description": "Área radiolúcida na porção superior da radiografia limitada por linha radiopaca (assoalho).",
-      "path": "img/PS/PS 4.jpg",
-      "prev": "img/PS/PS 3.jpg",
-      "next": "img/PS/PS 1.jpg",
+      "path": "img/PS/PS 4.png",
+      "prev": "img/PS/PS 3.png",
+      "next": "img/PS/PS 1.png",
       "mult": false
     }
   ]

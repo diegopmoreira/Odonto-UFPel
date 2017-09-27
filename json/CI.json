@@ -4,18 +4,18 @@
   "radiopacas": [{
       "acidente": "Base da mandíbula",
       "description": "Faixa radiopaca, homogênea e contínua, que delimita a mandíbula inferiormente",
-      "path": "img/CI/CI 1.jpg",
-      "prev": "img/CI/CI 3.jpg",
-      "next": "img/CI/CI 2.jpg",
+      "path": "img/CI/CI 1.png",
+      "prev": "img/CI/CI 3.png",
+      "next": "img/CI/CI 2.png",
       "mult": false
 
     },
     {
       "acidente": "Protuberância mentual",
       "description": "Faixa radiopaca que se estende da região anterior e é projetada sobre os ápices do canino e dos incisivos inferiores ou logo abaixo deles.",
-      "path": "img/CI/CI 2.jpg",
-      "prev": "img/CI/CI 1.jpg",
-      "next": "img/CI/CI 3.jpg",
+      "path": "img/CI/CI 2.png",
+      "prev": "img/CI/CI 1.png",
+      "next": "img/CI/CI 3.png",
       "mult": false
 
     }
@@ -23,9 +23,9 @@
   "radiolucida": [{
     "acidente": "Forame mentual",
     "description": "Área radiolúcida, arredondada, oval ou irregular, localizada próxima aos ápices dos pré-molares inferiores.",
-    "path": "img/CI/CI 3.jpg",
-    "prev": "img/CI/CI 2.jpg",
-    "next": "img/CI/CI 1.jpg",
+    "path": "img/CI/CI 3.png",
+    "prev": "img/CI/CI 2.png",
+    "next": "img/CI/CI 1.png",
     "mult": false
   }]
 }

@@ -4,50 +4,50 @@
   "radiopacas": [{
       "acidente": "Paredes do canal da mandíbula",
       "description": "Linhas radiopacas  que  delimitam superior e inferiormente o canal da mandíbula. ",
-      "path": "img/PI/PI 1.jpg",
-      "prev": "img/PI/PI 6.jpg",
-      "next": "img/PI/PI 2.jpg",
+      "path": "img/PI/PI 1.png",
+      "prev": "img/PI/PI 6.png",
+      "next": "img/PI/PI 2.png",
       "mult": false
     },
     {
       "acidente": "Linha milo-hióidea",
       "description": "Faixa radiopaca que se soprepõe ou está abaixo dos ápices das raízes dos molares inferiores.",
-      "path": "img/PI/PI 2.jpg",
-      "prev": "img/PI/PI 1.jpg",
-      "next": "img/PI/PI 3.jpg",
+      "path": "img/PI/PI 2.png",
+      "prev": "img/PI/PI 1.png",
+      "next": "img/PI/PI 3.png",
       "mult": false
     },
     {
       "acidente": "Base da mandíbula",
       "description": "Faixa radiopaca, homogênea e contínua, que delimita a mandíbula inferiormente.",
-      "path": "img/PI/PI 3.jpg",
-      "prev": "img/PI/PI 2.jpg",
-      "next": "img/PI/PI 4.jpg",
+      "path": "img/PI/PI 3.png",
+      "prev": "img/PI/PI 2.png",
+      "next": "img/PI/PI 4.png",
       "mult": false
     }
   ],
   "radiolucida": [{
       "acidente": "Forame mentual",
       "description": "Área radiolúcida, arredondada, oval ou irregular, localizada próxima aos ápices dos pré-molares inferiores.",
-      "path": "img/PI/PI 4.jpg",
-      "prev": "img/PI/PI 3.jpg",
-      "next": "img/PI/PI 5.jpg",
+      "path": "img/PI/PI 4.png",
+      "prev": "img/PI/PI 3.png",
+      "next": "img/PI/PI 5.png",
       "mult": true
     },
     {
       "acidente": "Canal da mandíbula",
       "description": "Faixa radiolúcida, limitada por duas linhas radiopacas (paredes), visualizada abaixo ou sobreposta aos ápices dos molares.",
-      "path": "img/PI/PI 5.jpg",
-      "prev": "img/PI/PI 4.jpg",
-      "next": "img/PI/PI 6.jpg",
+      "path": "img/PI/PI 5.png",
+      "prev": "img/PI/PI 4.png",
+      "next": "img/PI/PI 6.png",
       "mult": false
     },
     {
       "acidente": "Fóvea submandibular",
       "description": "Área radiolúcida, sem limites precisos,  caracterizada por diminuição do trabeculado ósseo, abaixo dos molares inferiores.",
-      "path": "img/PI/PI 6.jpg",
-      "prev": "img/PI/PI 5.jpg",
-      "next": "img/PI/PI 1.jpg",
+      "path": "img/PI/PI 6.png",
+      "prev": "img/PI/PI 5.png",
+      "next": "img/PI/PI 1.png",
       "mult": true
     }
   ]
